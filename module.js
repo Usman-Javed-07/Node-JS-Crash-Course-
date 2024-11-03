@@ -45,15 +45,27 @@ const path = require('path');
 // console.log('join :' , path.join(__dirname, 'order' , 'app.js')  );
 
 
+
 // make a directory or folder 
+// const fs = require('fs');
 
-const fs = require('fs');
-
-fs.mkdir(path.join(__dirname , '/test'), (err)=> {
-    if(err) {
-        console.log('face some eror while creating new directory');
-        return
-    }
-    console.log('new directory has been created');
+// fs.mkdir(path.join(__dirname , '/test'), (err)=> {
+//     if(err) {
+//         console.log('face some eror while creating new directory');
+//         return
+//     }
+//     console.log('new directory has been created');
     
-})
+// })
+
+
+
+
+// create a file 
+
+fs.writeFile (path.join(__dirname , 'test', 'test.txt'), 'hello node', (err) => {
+     if (err) {
+        throw (err)
+     }
+     console.log('file successfully created');
+});
