@@ -47,7 +47,7 @@ const path = require('path');
 
 
 // make a directory or folder 
-// const fs = require('fs');
+const fs = require('fs');
 
 // fs.mkdir(path.join(__dirname , '/test'), (err)=> {
 //     if(err) {
