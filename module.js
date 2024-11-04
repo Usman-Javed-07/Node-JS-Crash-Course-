@@ -121,3 +121,47 @@ const os = require('os');
 // console.log('Total memory :', os.totalmem());
 
 // console.log('Up time:', os.uptime());
+
+
+
+
+// events module 
+
+const Emitter = require('events');
+
+// const myEmitter = new Emitter();
+// myEmitter.on('someone' , (data)=> {
+// console.log(data);
+
+// })
+
+// myEmitter.emit('someone' , {
+//    name : 'usman javed', 
+//    phone : '0314424252'
+// });
+
+
+// class Auth extends Emitter {
+//    register (username) {
+//       console.log('Registered successfully ...');
+//       this.emit('register', username)
+   
+//    }
+// }
+
+// const auth = new Auth ()
+
+// // listen 
+
+// // send email
+// auth.on('register' , (data)=> {
+//    console.log(`sending email to: ${data}`);
+   
+// })
+// // welcome email
+// auth.on('register' , (data)=> {
+//    console.log(`sending welcome email to: ${data}`);
+   
+// })
+
+// auth.register('elysim soles')
