@@ -81,4 +81,24 @@ const fs = require('fs');
 
 
 // read a file 
+// first method
+// fs.readFile(path.join (__dirname , 'test', 'test.txt'), (err , data)=> {
+
+//    if(err) {
+//       throw (err)
+//    }
+//    const content = Buffer.from(data)
+//    console.log(content.toString());
+   
+// })
+
+// second data
+// fs.readFile(path.join (__dirname , 'test', 'test.txt'), 'utf-8', (err , data)=> {
+
+//    if(err) {
+//       throw (err)
+//    }
+// console.log(data);
+// })
+
 
