@@ -63,9 +63,22 @@ const fs = require('fs');
 
 // create a file 
 
-fs.writeFile (path.join(__dirname , 'test', 'test.txt'), 'hello node', (err) => {
-     if (err) {
-        throw (err)
-     }
-     console.log('file successfully created');
-});
+// fs.writeFile (path.join(__dirname , 'test', 'test.txt'), 'hello node', (err) => {
+//      if (err) {
+//         throw (err)
+        
+//      }
+//      fs.appendFile(path.join(__dirname , 'test', 'test.txt'), ' \n More data added ', (err) => {
+//       if(err) {
+//          throw (err)
+//       }
+//       console.log('data added ....');
+      
+//      })
+//      console.log('file successfully created');
+// });
+
+
+
+// read a file 
+
