@@ -102,3 +102,22 @@ const fs = require('fs');
 // })
 
 
+
+
+// Os module 
+
+const os = require('os');
+
+// console.log('Os Type :', os.type());
+
+// console.log('Os Platform :', os.platform());
+
+// console.log('Os architecture :', os.arch());
+
+// console.log('cpu details :', os.cpus());
+
+// console.log('Free memory :', os.freemem());
+
+// console.log('Total memory :', os.totalmem());
+
+// console.log('Up time:', os.uptime());
